@@ -1,0 +1,4 @@
+# kyua-atf-tester, kyua-plain-tester, kyua-tap-tester are
+# in /usr/libexec on other platforms
+# and /usr/lib on Debian
+sharedobject-in-library-directory-missing-soname

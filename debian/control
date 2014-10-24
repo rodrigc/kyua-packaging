@@ -1,0 +1,24 @@
+Source: kyua
+Section: devel
+Priority: optional
+Maintainer: Craig Rodrigues <rodrigc@FreeBSD.org>
+Build-Depends: debhelper (>= 9), autotools-dev, libatf-dev, liblutok-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/jmmv/kyua
+#Vcs-Git: git://git.debian.org/collab-maint/kyua.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/kyua.git;a=summary
+
+Package: kyua
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Testing framework for infrastructure software
+ Kyua is a testing framework for infrastructure software.
+ Kyua features an expressive test suite definition language, a
+ safe runtime engine for test programs, and a powerful report generation
+ engine.
+ .
+ Kyua is able to execute test programs written in different languages,
+ with different testing libraries.  The Automated Testing Framework (ATF)
+ is the library of choice, but Test Anything Protocol (TAP) compliant
+ programs, and framework-less test programs can also be executed
+ through Kyua.
