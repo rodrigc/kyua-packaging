@@ -3,7 +3,7 @@ Section: devel
 Priority: optional
 Maintainer: Craig Rodrigues <rodrigc@FreeBSD.org>
 Build-Depends: debhelper (>= 9), autotools-dev, pkg-config, libatf-dev, liblua5.2-dev, liblutok-dev, libsqlite3-dev
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: https://github.com/jmmv/kyua
 #Vcs-Git: git://git.debian.org/collab-maint/kyua.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/kyua.git;a=summary
